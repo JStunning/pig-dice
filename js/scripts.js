@@ -31,7 +31,6 @@ function turnCount() {
         turnScores.turnCount = 0
         playerScores.p1Total= 0
         playerScores.p2Total= 0
-        turnScores.turnCount =2
 
 }
 
