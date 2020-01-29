@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/scripts.js"></script>
+    <title>Pig Dice</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pig Dice</h1>
+
+
+        <!--Player Scores-->
+        <div class="row">
+
+            <div class="col-md-6">
+                <h2>Player 1</h2>
+                <p>total: <span id="p1Total"></span></p>
+                <p>turn: <span id="p1Turn"></span></p>
+                <p>roll: <span id="p1Roll"></span></p>
+            </div>
+            <div class="col-md-6">
+                <h2>Player 2</h2>
+                <p>total: <span id="p2Total"></span></p>
+                <p>turn: <span id="p2Turn"></span></p>
+                <p>roll: <span id="p2Roll"></span></p>
+            </div>
+
+        </div> <!--Row end-->
+
+        <!--Dice Roll-->
+        <div id="rollBox"></div><br>
+        <center><button id="roll">Roll the Dice</button></center><br>
+        <center><button id="hold">Hold</button></center>
+
+        <div id= "winner">
+            
+        </div>
+        
+
+
+
+
+
+    </div> <!--Container end-->
+    
+</body>
+</html>
