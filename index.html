@@ -13,30 +13,35 @@
 
 
         <!--Player Scores-->
+        <center><h2>Game display</h2>
+        <p>turn: <span id="p1Turn"></span></p>
+        <p>roll: <span id="p1Roll"></span></p></center>
+
         <div class="row">
+
 
             <div class="col-md-6">
                 <h2>Player 1</h2>
                 <p>total: <span id="p1Total"></span></p>
-                <p>turn: <span id="p1Turn"></span></p>
-                <p>roll: <span id="p1Roll"></span></p>
+                <div id="playerOneTurn"><h4>Your turn</h4></div>
             </div>
+
             <div class="col-md-6">
                 <h2>Player 2</h2>
                 <p>total: <span id="p2Total"></span></p>
-                <p>turn: <span id="p2Turn"></span></p>
-                <p>roll: <span id="p2Roll"></span></p>
+                <div id= "playerTwoTurn"><h4>Your turn</h4></div>
             </div>
+
 
         </div> <!--Row end-->
 
         <!--Dice Roll-->
         <div id="rollBox"></div><br>
         <center><button id="roll">Roll the Dice</button></center><br>
-        <center><button id="hold">Hold</button></center>
+        <center><button id="hold">Hold</button></center><br>
+        <center><button id="start"> Start New Game</button></center>
 
         <div id= "winner">
-            
         </div>
         
 

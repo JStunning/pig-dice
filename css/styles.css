@@ -1,8 +1,19 @@
 #rollBox {
-    border: 1px solid red;
-    height: 200px;
+    background-image: url("https://creativity103.com/collections/Cardboard/inside_a_box.jpg");
+    height: 660px;
+    width: 1000px;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
 }
 
 #hold {
     margin: auto;
+}
+
+/*#playerOneTurn {
+    display: none
+    
+}*/
+#playerTwoTurn {
+    display: none
 }
